@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+html, body{
+	height: 100%;
+}
+
+/**Header do site**/
+
+header{
+	padding: 20px 2%;
+}
+header .logo img{
+	float:left;
+	width:70px;
+}
+header nav{
+	float:right;
+}
+header nav ul{
+	padding: 8px 0;
+	list-style-type: none;
+}
+header nav ul li{
+	float:left;
+	font-size: 14px;
+	padding:0 20px;
+	text-transform: uppercase;
+}
+header ul a{
+	text-decoration: none;
+	color: #b4b4b4;
+}
+
+/**Mosaico **/
+
+.mosaico-single{
+	float:left;
+	width: calc(100% / 6);
+}
+.img-mosaico-single{
+	width:100%;
+	padding-top: 100%;
+	background-color: #ccc;
+	border:5px solid white;
+}
+
+/**Servicos**/
+
+/**SECAO MOSAICO**/
+.mosaico{
+	width:80%;
+	margin:0 auto;
+
+}
+.mosaico h2{
+	color:orange;
+	margin:30px 0;
+}
+.flex-mosaico{
+	display: flex;
+}
+.item-1-mosaico{
+	background-position: center;
+	background-size: cover;
+	width:80%;
+	border: 1px solid #ccc;
+}
+.item-2-mosaico{
+	background-color: #7ca5f2;
+	padding:140px 40px;
+	width: 40%;
+}
+.item-2-mosaico p{
+	color:white;
+
+.adsense{
+
+}
+footer{
+	text-align: center;
+	padding: 20px 0;
+}
+footer p{
+	margin-top: 8px;
+	color: orange;
+}
+
+@media screen and (max-width: 768px){
+	.flex-mosaico{
+		display:block;
+	}
+	.item-1-mosaico{
+		padding-top: 80%;
+		width:100%;
+	}
+	.item-2-mosaico{
+		width:100%;
+	}
+}
